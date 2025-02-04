@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: lightgreen;
+    color: darkred;
+}
+@media screen and (max-width:500px) {
+    /*Any scrren resolution from 0-500px wide*/
+    body {
+        background-color: lightcoral;
+        color: darkgreen;
+    }
+}
+@media screen and (max-width:400px) {
+    /*Any scrren resolution from 0-400px wide*/
+    body {
+        background-color: lightseagreen;
+        color: darkmagenta;
+    }
+}
